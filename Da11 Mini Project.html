@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+          <style>
+                    header{
+                              left: 0px;
+                              top: 0px;
+                              position: fixed;
+                              color:aliceblue;
+                              background-image: linear-gradient(90deg,#023e8a,#ff006e,#bb3e03,#540d6e,#8e7dbe);
+                              width: 100%;
+                              text-align: center;
+                              font-size: 50px;
+                              box-shadow: 10px 10px 20px rgb(88, 85, 85) ;   
+                    }
+                    footer{
+                              left: 0px;
+                              bottom: 10px;
+                              position: fixed;
+                              color:aliceblue;
+                              background-image: linear-gradient(90deg,#023e8a,#ff006e,#bb3e03,#540d6e,#8e7dbe);
+                              width: 100%;
+                              text-align: center;
+                              font-size: 30px;
+                              box-shadow: 10px 10px 20px rgb(86, 85, 85) ;  
+                    }
+
+                    body{
+                             background-color:#e5e5e5;
+                    }
+                   
+                    #a{grid-area: a1;}
+                    #b{grid-area: b1;}
+                    #c{grid-area: c1;}
+                    #d{grid-area: d1;}
+                    #e{grid-area: e1;}
+                    #f{grid-area: f1;}
+
+                    #maindiv{
+                        display: grid; 
+                        background-image: linear-gradient(90deg,#ff7d00,white,green);      
+                              grid-template-areas:'a1 a1 a1 a1 a1 a1'
+                              'b1 b1 b1 b1 b1 b1 '
+                              'c1 c1 c1 c1 c1 c1'
+                              'd1 d1 d1 d1 d1 d1'
+                              'e1 e1 e1 e1 e1 e1'
+                              'f1 f1 f1 f1 f1 f1';
+                              color: black;
+                              text-align: center;
+                              font-size: 20px;
+                              font-family: 'Times New Roman', Times, serif;
+                              box-shadow: 10px 10px 15px rgb(60, 59, 59),-10px -10px 15px rgb(70, 68, 68); 
+                              padding: 10px;
+                              margin: 100px;
+                              border-radius: 20px;
+                    
+                    }
+                    #maindiv > div{
+                        background-color:#eccaf1;
+                        grid-gap: 20px;
+                        padding: 50px;
+                        margin: 60px;
+                        border-radius: 20px;
+                        align-items: center;
+
+                    }
+
+                    #id{
+                        font-size: 25px;
+                        
+                    }
+      
+                    
+
+          </style>
+</head>
+<body>
+          <header>Welcome To the Historical Places Of India!!!</header>
+          <div id="maindiv">
+            <div id="a">
+                  <a href="https://en.wikipedia.org/wiki/Taj_Mahal">
+                  <img src="TajMahal.jpg" width="300px" height="300px">
+                  <h1><u>Taj Mahal</u></h1>
+            </a> 
+                  <p>The Taj Mahal is widely considered one of the most beautiful buildings ever created. The exquisite marble structure is in Agra,India.</p> 
+            
+            </div>
+            
+            <div id="b">
+                  <a href="https://en.wikipedia.org/wiki/Qutb_Minar">
+                  <img src="Qutub minar.jpg" width="300px" height="300px">
+                  <h1><u>Qutub Minar</u></h1> 
+            </a>
+            <p>The Qutb Minar, also spelled Qutub Minar and Qutab Minar, is a minaret and "victory tower" that forms part of the Qutb complex, which lies at the site of Delhi's oldest fortified city, Lal Kot, founded by the Tomar Rajputs.</p>  
+            </div>
+                 
+            <div id="c">
+                  <a href="https://en.wikipedia.org/wiki/Golden_Temple">
+                  <img src="Golden temple.jpg" width="300px" height="300px">
+                  <h1><u>Golden Temple</u></h1>  
+            </a>
+            <p>Amritsar is world-famous for the beautiful and highly revered Golden Temple or Sri Harmandir Sahib, which is one of the most prominent spiritual sites in the country.</p>
+            </div>
+               
+            <div id="d">
+                  <a href="https://en.wikipedia.org/wiki/Hawa_Mahal">
+                  <img src="Hawa mahal.jpg" width="300px" height="300px">
+                  <h1><u>Hawa Mahal</u></h1> 
+            </a>  
+            <p>Hawa Mahal, literally the Palace of Winds was built using pink sandstone in 1799 by Maharaja Sawai Pratap Singh and is the most recognizable monument of Jaipur.</p>
+            </div>  
+
+            <div id="e">
+                  <a href="https://en.wikipedia.org/wiki/Statue_of_Unity">
+                  <img src="Statue of unity.jpg" width="300px" height="300px">
+                  <h1><u>Statue of Unity</u></h1> 
+            </a>
+            <p>The Statue of Unity is one of the world's most famous statues. This statue was created in honour of the famous Indian leader Sardar Vallabh Bhai Patel in Gujarat.</p>  
+            </div>
+                  
+            <div id="f">
+                  <a href="https://en.wikipedia.org/wiki/Red_Fort">
+                  <img src="RedFort.jpg" width="300px" height="300px">
+                  <h1><u>Red Fort</u></h1> 
+            </a>  
+            <p>The Red Fort Complex was built as the palace fort of Shahjahanabad – the new capital of the fifth Mughal Emperor of India, Shah Jahan. </p> 
+            </div>
+            
+            
+           <h1 style="margin-left: 550px;"> <audio src="Jana-Gana-Mana-(The-Indian-National-Anthem)(PagalWorldl).mp3" controls></audio></h1>
+            
+
+          <footer>Thank You!
+            <h2 id="id">Designed and Developed by Pooja Salave</h2>
+          </footer>
+          
+</body>
+</html>
